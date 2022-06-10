@@ -109,13 +109,6 @@ author:
   bio              : "Can you **SEE** this?"
   location         : "Somewhere"
   email            :
-  defaults:
-    - scope:
-        path: ""
-        type: docs
-        values: 
-          sidebar:
-            nav: "docs" 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -237,7 +230,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -298,3 +290,12 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+defaults:
+  # -docs
+    - scope:
+        path: ""
+        type: docs
+        values: 
+          sidebar:
+            nav: "docs" 

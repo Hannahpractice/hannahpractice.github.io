@@ -10,3 +10,24 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+docs: 
+  - title: "About"
+    icon: "fas fa-fw fa-home"
+    url: /about/
+  - title: "Programme"
+    icon: "fas fa-fw fa-list"
+    children:
+      - title: "Booklet"
+        url: /booklet/
+      - title: "Sunday Symposium"
+        url: /symposium/
+  - title: "Author"
+    icon: "fas fa-fw fa-owner"
+    url: /author/
+  - title: "Calendar"
+    icon: "fa fa-fw fa-calendar"
+    url: /calendar/
+  - title: "Registration"
+    icon: "fas fa-fw fa-sticky-note"
+    url: /registration/
